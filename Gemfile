@@ -1,6 +1,10 @@
 source 'https://rubygems.org'
 ruby '2.3.4'
 
+gem "better_errors"
+gem "binding_of_caller"
+gem 'figaro'
+gem 'omniauth-facebook'
 gem 'devise'
 gem 'figaro'
 gem 'jbuilder', '~> 2.0'
